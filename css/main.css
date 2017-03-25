@@ -185,7 +185,13 @@ a.button:hover {
 	font-size: 14px;
 }
 
-
+/*=== MEDIA QUIRIES ===*/
+ 
+ @media (max-width: 760px) {
+ 	.search-box input{
+ 		width: 80%;
+ 	}
+ }
 
 
 
