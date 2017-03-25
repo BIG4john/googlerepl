@@ -191,7 +191,27 @@ a.button:hover {
  	.search-box input{
  		width: 80%;
  	}
+ 	.search-box img{
+ 		width: 80%;
+ 	}
  }
 
-
+ @media (max-width: 460px) {
+ 	.profile-img {
+ 		display: none;
+ 	}
+ 	.top-navigation {
+ 		margin-right: auto;
+ 	}
+ }
+@media (max-width: 510px) {
+	ul.left-site-links {
+		padding: auto;
+		float: 0;
+	}
+	ul.right-site-links {
+		padding: auto;
+		float: 0;
+	}
+}
 
